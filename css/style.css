@@ -1,0 +1,39 @@
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.product-link{
+    width: 25%;
+    height: 250px;
+}
+
+.product-link__img{
+    display: block;
+}
+
+.product-link__info{
+    background: pink;
+    height: 100px;
+}
+
+.pop-up__rating{
+    background: violet;
+    width: 45%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.pop-up__rating__img{
+    height: 14vh;
+}
+
+.pop-up__rating__comment{
+    background: white;
+    width: 35%;
+    height: 100px;
+}
