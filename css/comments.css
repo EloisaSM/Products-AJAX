@@ -1,0 +1,39 @@
+p {
+    margin: 0;
+}
+.pop-up {
+    top: 50%;
+    right: 20%;
+    transform: translateY(-30%);
+    position: absolute;
+}
+
+.pop-up__container {
+    background: white;
+    height: 410px;
+    overflow: auto;
+    padding-bottom: 25px;
+    width: 70%;
+}
+
+.pop-up__rating{
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.pop-up__rating__img{
+    height: 14vh;
+}
+
+.pop-up__rating__comment{
+    background: white;
+    width: 44%;
+    height: 100px;
+    padding: 0 0.5rem;
+}
+
+.pop-up__rating__comment__name{
+    margin-bottom: 0.3rem;
+}

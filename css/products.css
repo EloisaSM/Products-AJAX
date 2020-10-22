@@ -1,0 +1,31 @@
+.container-product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.product-link{
+    width: calc(21% - 1.8rem);
+    height: 250px;
+    display: block;
+    margin-right: 1.8rem;
+    margin-top: 2rem;
+}
+
+.product-link:nth-child(4n+ 0) {
+    margin-right: 0;
+}
+
+.product-link__img{
+    display: block;
+    height: 136px;
+    width: 100%;
+}
+
+.product-link__info{
+    background:#ffe990;
+    height: 80px;
+    padding: 1rem;
+    text-align: center;
+}

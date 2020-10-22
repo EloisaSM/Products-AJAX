@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/comments.css">
 </head>
-<body>
-    <header>
-        <h1>Minha Lojinha!</h1>
-    </header>
 
+<body>
     <main>
-        <button class="start-btn" onclick="openProducts()">Iniciar</button>
+        <div class="start-elments-container">
+            <button class="start-btn" onclick="openProducts()">Iniciar</button>
+        </div>
 
         <section class="container-product"></section>
-    
-        <section class="pop-up" >
-            <button class="close-btn" onclick="closePopUp()"></button>
+
+        <section class="pop-up hide">
+            <button class="close-btn" onclick="closePopUp()">X</button>
+            <div class="pop-up__container"></div>
         </section>
     </main>
 
-    <script src="../js/show-itens.js"></script>
-    <script src="../api.js"></script>
-    <script src="../js/container.js"></script>
-    <script src="../js/container-comments.js"></script>
+    <div class="loader-container hide">
+        <img src="../icons/810.gif" class="loader-container__loader-gif" alt="">
+    </div>
+
+    <script src="../js/utils/loader.js"></script>
+    <script src="../js/utils/api.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/comments.js"></script>
 
 </body>
 </html>

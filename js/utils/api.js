@@ -14,7 +14,3 @@ function requestApi(path, cb) {
 
     xhr.send();
 }
-
-
-
-
