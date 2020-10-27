@@ -1,4 +1,4 @@
-# Minha lojinha!
+# Products-AJAX
 
 ### 📄 About
 This project is for **study** purposes focusing on integration with the **REST API** back-end using **AJAX**. Simulating a product screen, in which the project information is loaded as well as the product reviews.
