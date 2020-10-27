@@ -11,7 +11,9 @@
     display: block;
     margin-right: 1.8rem;
     margin-top: 2rem;
+    cursor: pointer;
 }
+
 
 .product-link:nth-child(4n+ 0) {
     margin-right: 0;
